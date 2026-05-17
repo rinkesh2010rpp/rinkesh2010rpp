@@ -16,7 +16,7 @@
 
 I'm a **Senior Technical Product Manager** at Amazon, building intelligent systems that make last-mile delivery faster, safer, and cheaper. My work lives at the intersection of **product strategy, AI/ML, and engineering** — where I turn complex operational problems into scalable solutions.
 
-I'm not just a PM who talks to engineers — I prototype, experiment with models, and get hands-on with data. Currently obsessed with how **AI agents** can reshape how people interact with systems, data, and decisions.
+I'm not just a PM who talks to engineers — I prototype, experiment with models, and get hands-on with data. I have experience productionalizing ML models and mathematical optimizers and currently obsessed with how **AI agents** can reshape how people interact with systems, data, and decisions.
 
 ---
 
