@@ -22,9 +22,11 @@ I'm not just a PM who talks to engineers — I prototype, experiment with models
 
 ## 🚀 What I'm Working On
 
-- 🤖 **Agentic AI systems** — building and prototyping agent-based workflows using LLMs, RAG, and orchestration frameworks
-- 🔗 **[agui-react-client](https://github.com/rinkesh2010rpp/agui-react-client)** — React state management for agentic usecases using the AGUI protocol
-- 🧠 **[llm-knowledge-distillation](https://github.com/rinkesh2010rpp/llm-knowledge-distillation)** — distilling small, specialized LLMs from general-purpose models
+- 🤖 **[sudarshana](https://github.com/rinkesh2010rpp/sudarshana)** — an autonomous AI agent that runs itself: scheduled check-ins, persistent memory, web search, and other agents on demand
+- 🛡️ **[taster-ai](https://github.com/rinkesh2010rpp/taster-ai)** — antivirus for AI agents: screens every tool result for prompt injection before the agent reads it
+- 🔌 **[a2a-hotplug](https://github.com/rinkesh2010rpp/a2a-hotplug)** — LangChain middleware that lets an agent discover, add and call other A2A agents at runtime
+
+**Earlier:** 🔗 [agui-react-client](https://github.com/rinkesh2010rpp/agui-react-client) (React state for agentic apps over the AG-UI protocol) · 🧠 [llm-knowledge-distillation](https://github.com/rinkesh2010rpp/llm-knowledge-distillation) (distilling small, specialized LLMs from general-purpose models)
 
 ---
 
