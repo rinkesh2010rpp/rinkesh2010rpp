@@ -12,39 +12,49 @@
 
 ---
 
-## 👋 About Me
+## 👋 About me
 
-I'm a **Senior Technical Product Manager** at Amazon, building intelligent systems that make last-mile delivery faster, safer, and cheaper. My work lives at the intersection of **product strategy, AI/ML, and engineering** — where I turn complex operational problems into scalable solutions.
+By day I'm a Senior Technical Product Manager at Amazon, building intelligent
+systems for last-mile delivery stations. I've taken ML models and mathematical
+optimisers to production.
 
-I'm not just a PM who talks to engineers — I prototype, experiment with models, and get hands-on with data. I have experience productionalizing ML models and mathematical optimizers and currently obsessed with how **AI agents** can reshape how people interact with systems, data, and decisions.
-
----
-
-## 🚀 What I'm Working On
-
-- 🤖 **[sudarshana](https://github.com/rinkesh2010rpp/sudarshana)** — an autonomous AI agent that runs itself: scheduled check-ins, persistent memory, web search, and other agents on demand
-- 🛡️ **[taster-ai](https://github.com/rinkesh2010rpp/taster-ai)** — antivirus for AI agents: screens every tool result for prompt injection before the agent reads it
-- 🔌 **[a2a-hotplug](https://github.com/rinkesh2010rpp/a2a-hotplug)** — LangChain middleware that lets an agent discover, add and call other A2A agents at runtime
-
-**Earlier:** 🔗 [agui-react-client](https://github.com/rinkesh2010rpp/agui-react-client) (React state for agentic apps over the AG-UI protocol) · 🧠 [llm-knowledge-distillation](https://github.com/rinkesh2010rpp/llm-knowledge-distillation) (distilling small, specialized LLMs from general-purpose models)
+On my own time I build each layer of the AI agent stack myself, to learn
+where it breaks and where the gaps are. Taster came from that: my own agent
+needed rules it couldn't talk its way out of.
 
 ---
 
-## 🛠️ Tech & Tools
+## 🧱 What I build, layer by layer
+
+| Layer | Project | What it does |
+|---|---|---|
+| 🛡️ **Safety** | **[taster-ai](https://github.com/rinkesh2010rpp/taster-ai)** | Your agent keeps your rules, even when you're not watching. Checks every tool call against a plain-English constitution and every result for prompt injection. 18/18 in its live test. |
+| 🤖 **Autonomous agent** | **[sudarshana](https://github.com/rinkesh2010rpp/sudarshana)** | An agent that runs itself every hour on Modal: its own roadmap, memory, shell and git, with Taster screening what it reads. It maintains its own [public blog](https://sudarshanaai.netlify.app). |
+| 🔌 **Interop** | [a2a-hotplug](https://github.com/rinkesh2010rpp/a2a-hotplug) | LangChain middleware that lets an agent discover, add and call other A2A agents at runtime. |
+| 🧠 **Models** | [llm-knowledge-distillation](https://github.com/rinkesh2010rpp/llm-knowledge-distillation) | Distilling small specialised models from large ones, including one trained on Sudarshana's own tool-calling logs. |
+| ⚙️ **Serving** | [vllm-modal-serving](https://github.com/rinkesh2010rpp/vllm-modal-serving) | A serverless, OpenAI-compatible vLLM endpoint on Modal that scales to zero. |
+| 🖥️ **Agent UI** | [agui-react-client](https://github.com/rinkesh2010rpp/agui-react-client) | Headless React hooks for agent UIs on the AG-UI protocol, published to npm as `@agilab/react`. |
+| 🏏 **Just for fun** | [cricket-tarot-cards](https://github.com/rinkesh2010rpp/cricket-tarot-cards) | A voice tarot reader for cricket fans, with tool calling, speech-to-text and text-to-speech. |
+
+---
+
+## 🛠️ Tech & tools
 
 ```text
-AI / ML        →  LLMs · RAG · Agentic Systems · Anomaly Detection · Predictive ML
-Languages      →  Python · TypeScript · SQL
-Product        →  Roadmapping · Discovery · Stakeholder Alignment · KPI Definition
-Data           →  Data Pipelines · Analytics · A/B Testing · Azure
-Domains        →  Last-Mile Logistics · Operational AI · Energy · EV
+AI / ML    →  LLM agents · tool calling · distillation · fine-tuning · RAG · predictive ML
+Agents     →  LangChain · deepagents · A2A · AG-UI
+Infra      →  Modal · vLLM · OpenRouter · Netlify
+Languages  →  Python · TypeScript · SQL
+Product    →  0-to-1 discovery · roadmaps · KPIs · operational AI
 ```
 
 ---
 
-## 💬 Let's Connect
+## 💬 Let's connect
 
-I'm always up for conversations about **AI agents, product strategy, LLMs, or operational automation**. If you're building something interesting at the frontier of AI + product, reach out.
+Happy to talk about **AI agents, agent safety, small models, or taking AI to
+production**. If you run agents unattended, I'd especially like to hear what
+went wrong.
 
 <div align="center">
 
